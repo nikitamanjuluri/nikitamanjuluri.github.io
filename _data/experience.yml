@@ -1,0 +1,17 @@
+work:
+  - role: "Mechanical Engineer"
+    company: "Acme Robotics"
+    dates: "2023 — Present"
+    location: "City, Country"
+    description: "Lead mechanical design, prototype development and validation for consumer robotics."
+  - role: "Design Intern"
+    company: "Motion Labs"
+    dates: "2022 — 2023"
+    location: "City, Country"
+    description: "Assisted with CAD, tolerance analysis, and test fixtures."
+
+education:
+  - degree: "B.S. Mechanical Engineering"
+    school: "University Name"
+    dates: "2018 — 2022"
+    details: "Relevant coursework: Machine Design, Dynamics, Materials, CAD."

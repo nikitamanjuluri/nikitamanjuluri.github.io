@@ -1,0 +1,19 @@
+<div class="sidebar-profile">
+  <img src="{{ site.sidebar.profile.image | default: '/assets/images/profile.jpg' }}" alt="{{ site.sidebar.profile.name }}" class="profile-pic"/>
+  <h2 class="profile-name">{{ site.sidebar.profile.name | default: "Your Name" }}</h2>
+  <p class="profile-headline">{{ site.sidebar.profile.headline | default: "Mechanical Engineer — Design • Prototyping • Analysis" }}</p>
+  <ul class="contact-list">
+    {% if site.sidebar.profile.contact.email %}<li>Email: <a href="mailto:{{ site.sidebar.profile.contact.email }}">{{ site.sidebar.profile.contact.email }}</a></li>{% endif %}
+    {% if site.sidebar.profile.contact.location %}<li>Location: {{ site.sidebar.profile.contact.location }}</li>{% endif %}
+    {% if site.sidebar.profile.social.linkedin %}<li><a href="{{ site.sidebar.profile.social.linkedin }}">LinkedIn</a></li>{% endif %}
+    {% if site.sidebar.profile.social.github %}<li><a href="{{ site.sidebar.profile.social.github }}">GitHub</a></li>{% endif %}
+  </ul>
+</div>
+
+<style>
+.sidebar-profile { text-align: center; padding: 1rem; }
+.profile-pic { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; border: 2px solid #ddd; }
+.profile-name { margin: .5rem 0 0.2rem; font-size: 1.15rem; }
+.contact-list { list-style: none; padding: 0; margin: .5rem 0 0; font-size: .95rem; }
+.contact-list li { margin: .25rem 0; }
+</style>
