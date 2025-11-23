@@ -1,6 +1,6 @@
 <div class="sidebar-profile">
   <img src="{{ site.sidebar.profile.image | default: '/assets/images/profile.jpg' }}" alt="{{ site.sidebar.profile.name }}" class="profile-pic"/>
-  <h2 class="profile-name">{{ site.sidebar.profile.name | default: "Your Name" }}</h2>
+  <h2 class="profile-name">{{ site.sidebar.profile.name | default: "Nikita Manjuluri" }}</h2>
   <p class="profile-headline">{{ site.sidebar.profile.headline | default: "Mechanical Engineer — Design • Prototyping • Analysis" }}</p>
   <ul class="contact-list">
     {% if site.sidebar.profile.contact.email %}<li>Email: <a href="mailto:{{ site.sidebar.profile.contact.email }}">{{ site.sidebar.profile.contact.email }}</a></li>{% endif %}

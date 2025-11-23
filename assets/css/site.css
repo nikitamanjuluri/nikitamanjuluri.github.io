@@ -52,3 +52,123 @@ img{max-width:100%;height:auto}
 .nav-link { padding:.5rem .75rem; color:#333; text-decoration:none; border-radius:6px }
 .nav-link:hover { background:#f6f6f6 }
 .nav-link.active { background:#fff; border:1px solid #e6e6e6; box-shadow:0 2px 6px rgba(0,0,0,0.03) }
+
+/* Homepage two-column layout: left text, right image */
+.home-hero {
+  display: grid;
+  grid-template-columns: 1fr 480px;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.home-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.intro-small {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0 0 0.25rem 0;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.name-xl {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  margin: 0 0 0.5rem 0;
+  color: #111;
+  font-weight: 700;
+}
+
+.role-med {
+  font-size: 1.25rem;
+  color: #555;
+  margin: 0 0 1.25rem 0;
+  font-weight: 500;
+}
+
+.desc-small {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 540px;
+}
+
+.home-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.panel-photo-right {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  object-position: 50% 18%;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Centered contact block below hero */
+.home-contact {
+  text-align: center;
+  padding: 1.25rem 0 0.75rem 0;
+  border-top: 1px solid #e6e6e6;
+  margin-bottom: 1rem;
+}
+
+.home-contact p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.home-contact a {
+  color: var(--accent);
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
+
+.home-contact a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive: stack two columns on narrow screens */
+@media (max-width: 900px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .home-right {
+    justify-content: center;
+  }
+  .panel-photo-right {
+    width: 70%;
+  }
+  .name-xl {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-hero {
+    gap: 1rem;
+  }
+  .panel-photo-right {
+    width: 100%;
+  }
+  .name-xl {
+    font-size: 2rem;
+  }
+  .role-med {
+    font-size: 1.1rem;
+  }
+  .intro-small,
+  .desc-small {
+    font-size: 0.9rem;
+  }
+}
