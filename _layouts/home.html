@@ -27,17 +27,64 @@
     </nav>
 
     <div class="contact">
-      {% if site.sidebar.profile.name %}<span class="top-name">{{ site.sidebar.profile.name }}</span>{% endif %}
-      {% if site.sidebar.profile.contact.email %}<a class="top-email" href="mailto:{{ site.sidebar.profile.contact.email }}">{{ site.sidebar.profile.contact.email }}</a>{% endif %}
+      {% if site.author.name %}<span class="top-name">{{ site.author.name }}</span>{% endif %}
+      {% if site.email %}<a class="top-email" href="mailto:{{ site.email }}">{{ site.email }}</a>{% endif %}
     </div>
   </header>
 
   <main class="layout-grid">
     <div class="container">
+      {%- comment -%} Prefer the author.profile_image, otherwise fall back to a default image {%- endcomment -%}
+      {%- if site.author.profile_image -%}
+        {%- assign hero_img = site.author.profile_image -%}
+      {%- else -%}
+        {%- assign hero_img = '/assets/images/profile.jpg' -%}
+      {%- endif -%}
+      {%- if page.url == '/' or page.url == '/index.html' or page.url == '' -%}
+        {%- comment -%}
+        Emit a responsive hero image. The template will:
+        - prefer `site.author.profile_image` (set in `_config.yml`)
+        - fall back to `/assets/images/profile.jpg` if not set
+        - emit a `srcset` using a filename pattern like `name-400w.webp`,
+          `name-800w.webp`, `name-1600w.webp`. If your original file uses
+          a different extension (jpg/png), the pattern will still work as
+          long as you generate the matching variants.
+        To generate variants, see the instructions injected below.
+        {%- endcomment -%}
+
+        {%- assign hero_ext_removed = hero_img | replace: '.webp', '' | replace: '.jpg', '' | replace: '.jpeg', '' | replace: '.png', '' -%}
+        {%- assign hero_base = hero_ext_removed -%}
+
+        <img
+          class="panel-photo"
+          src="{{ hero_img }}"
+          srcset="{{ hero_base }}-400w.webp 400w, {{ hero_base }}-800w.webp 800w, {{ hero_base }}-1600w.webp 1600w"
+          sizes="(max-width: 900px) 100vw, 800px"
+          alt="{{ site.author.name }}">
+
+        {%- comment -%}
+        NOTE: The srcset above assumes you create the following files next to
+        your original image (e.g. if profile_image is `/assets/images/banner.webp`):
+          - /assets/images/banner-400w.webp
+          - /assets/images/banner-800w.webp
+          - /assets/images/banner-1600w.webp
+
+        To generate these files locally, you can use ImageMagick (replace
+        paths/names as needed):
+
+        convert assets/images/banner_vertical.webp -resize 400x -quality 80 assets/images/banner_vertical-400w.webp
+        convert assets/images/banner_vertical.webp -resize 800x -quality 80 assets/images/banner_vertical-800w.webp
+        convert assets/images/banner_vertical.webp -resize 1600x -quality 80 assets/images/banner_vertical-1600w.webp
+
+        Or, if you prefer JPEG variants, replace `.webp` with `.jpg` in the
+        above commands and adjust the `srcset` in this template accordingly.
+        {%- endcomment -%}
+      {%- endif -%}
+
       {{ content }}
     </div>
   </main>
 
-  <footer style="text-align:center;padding:2rem 0;color:#777">© {{ site.time | date: "%Y" }} {{ site.sidebar.profile.name | default: site.author.name }}</footer>
+  <footer style="text-align:center;padding:2rem 0;color:#777">© {{ site.time | date: "%Y" }} {{ site.author.name }}</footer>
 </body>
 </html>

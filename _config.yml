@@ -31,7 +31,7 @@ github_username: your_github_username
 author:
   name: "Your Name"
   role: "Mechanical Engineer"
-  profile_image: "/assets/images/profile.jpg"
+  profile_image: "/assets/images/banner_vertical.webp"
 
 # Build settings
 theme: minima
@@ -63,18 +63,6 @@ navigation:
   - title: "Contact"
     url: "/contact/"
 
-sidebar:
-  show_profile: true
-  profile:
-    name: "Your Name"
-    headline: "Mechanical Engineer — Design • Prototyping • Analysis"
-    image: "/assets/images/profile.jpg"
-    contact:
-      email: your-email@example.com
-      location: "City, Country"
-    social:
-      linkedin: "https://www.linkedin.com/in/yourprofile"
-      github: "https://github.com/your_github_username"
 
 # Optional resume link (put your Google Drive / public resume URL here)
 resume_link: ""
