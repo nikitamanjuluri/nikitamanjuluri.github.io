@@ -1,8 +1,8 @@
 /* Basic site styles for portfolio */
-:root{--accent:#0a66c2;--muted:#666}
+:root{--accent:#669bbc;--muted:#666}
 html,body{box-sizing:border-box;height:100%}
 *,*::before,*::after{box-sizing:inherit}
-body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; color:#222;background:#fafafa;margin:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; color:#222;background:#F9F6EE;margin:0}
 a{color:var(--accent);}
 h1,h2{color:#111;margin:.25rem 0}
 .layout-grid{box-sizing:border-box}
@@ -12,7 +12,7 @@ h1,h2{color:#111;margin:.25rem 0}
 img{max-width:100%;height:auto}
 
 /* Topbar + full-width tabbed layout */
-.topbar { position: sticky; top: 0; z-index: 60; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; padding: .6rem 5%; font-size: .95rem; }
+.topbar { position: sticky; top: 0; z-index: 60; background: #f5f1e8; border-bottom: 1px solid #e6dfd2; display: flex; justify-content: space-between; align-items: center; padding: .6rem 5%; font-size: .95rem; }
 .topbar .contact { color: #333; display:flex; gap:.6rem; align-items:center }
 
 .tabs-top { max-width: 1000px; margin: 0; padding: 0; }
@@ -121,9 +121,9 @@ img{max-width:100%;height:auto}
 
 /* Navigation links in topbar */
 .topnav { display:flex; gap:.5rem; align-items:center }
-.nav-link { padding:.5rem .75rem; color:#333; text-decoration:none; border-radius:6px }
-.nav-link:hover { background:#f6f6f6 }
-.nav-link.active { background:#fff; border:1px solid #e6e6e6; box-shadow:0 2px 6px rgba(0,0,0,0.03) }
+.nav-link { padding:.5rem .75rem; color:#333; text-decoration:none; border-radius:6px; font-weight: 500; }
+.nav-link:hover { background:rgba(0,0,0,0.06) }
+.nav-link.active { background:#669bbc; color:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1) }
 
 /* Homepage two-column layout: left text, right image */
 .home-hero {
@@ -323,8 +323,16 @@ img{max-width:100%;height:auto}
   display: block;
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--accent);
+  color: #111;
   margin-bottom: 0.25rem;
+}
+
+.experience-content .skills-label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  line-height: 1.5;
 }
 
 .experience-content ul {

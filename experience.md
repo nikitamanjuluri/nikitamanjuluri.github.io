@@ -32,6 +32,9 @@ permalink: /experience/
       {% endif %}
     {% endfor %}
     </ul>
+    {% if item.skills %}
+    <p class="skills-label"><strong>Skills:</strong> {{ item.skills }}</p>
+    {% endif %}
   </div>
 </div>
 {% endfor %}

@@ -2,24 +2,25 @@ work:
   - role: "Mechanical Engineer"
     company: "Blue Origin"
     location: "Seattle, WA"
-    dates: "September 2024 - Present"
+    dates: "September 2023 - September 2024"
     image: "/assets/images/experience/blue-origin.webp"
     description: |
-      - Created a unique geometry to carry an indirect load path >300 kips within stock size and tolerance constraints to house a spherical bearing and absorb the landing of the booster
-      - Designed and analyzed a welded steel assembly to attach to the LGS to integrate with the deploy test stand per GSE specifications
-      - Concepted and tested iterations of LGS bay seal in multiple test fixture levels of fidelity to mitigate aerothermal and pressure loads, including leak rate testing and pressure decay calculations
-      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand
-      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand
-  
+      - Created a novel geometry to carry >300 kip indirect load paths within stock/tolerance constraints. Through iterative design and Ansys analysis, reduced mass to 60 lbs of titanium to withstand 500°F aerothermal constraints, incorporating inputs from structures and thermal protection systems teams
+      - Transformed design to Powder Bed Fusion (PBF) printed variation to overcome stock size constraints
+      - Designed & analyzed welded steel assemblies for landing gear test stand integration per GSE safety factors
+      - Developed and tested multiple landing-gear bay seal concepts to mitigate aerothermal & pressure loads, performing leak-rate testing and pressure-decay calculations to conform to Equivalent Sharp Edge Orifice Diameter (ESEOD) standards
+    skills: "Creo, Ansys, GD&T, Windchill, DFAM, Structural Test, P&ID"
+
   - role: "New Graduate Rotational Program"
     company: "Blue Origin"
     location: "Seattle, WA"
     dates: "September 2023 - September 2024"
     image: "/assets/images/experience/blueorigin-be7.webp"
     description: |
-      - New Glenn Payload Structures: designed, production released, and manufactured tow/lift points for NG's reusable fairing
-      - Lunar MK2 Flight Deck: prototyped jointed connections for the Rotational Hand Controller per NASA/ergonomics guidelines
-      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand
+      - New Glenn Payload Structures: Designed and released lift/tow points for reusable fairing hardware to help with recovery and refurb of the New Glenn fairing. Worked with refurb team in Florida, focusing on customer needs, and visited Cape Canaveral facility to understand manufacturing constraints. 
+      - Lunar MK2 Flight Deck: Prototyped jointed connections for the Rotational Hand Controller, working with NASA team and Blue’s flight controllers to create Human in the Loop (HITL) tests to analyze ease of use for hardware.  
+      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand.
+    skills: "Works Order System, Nonconformance, Ergonomics"
 
   - role: "Propulsion Intern / Brooke Owens Fellow"
     company: "Relativity Space"
@@ -28,7 +29,10 @@ work:
     image: "/assets/images/experience/relativity-space.webp"
     description: |
       - Leveraged Powder Bed Fusion to design flexible, efficient engine components in NX and compare the analyses to commercial counterparts
-      - Designed, simulated structure and thermal loads, and led manufacture of PBF fuel feedline manifold for Aeon-R engine
+      - Designed and thermally/structurally simulated a PBF fuel feedline manifold for the Aeon-R engine, allowing for organic channels that reduced weight and lead times
+      - Gathered subcomponents (fittings, sensors, valves, orifices, and filters) and requirements from stakeholders
+      - Considered PBF manufacturing and machining while balancing print time, mass, temperature distributions, and stress concentrations.
+    skills: "NX, Ansys structural/thermal, DFAM"
 
   - role: "Undergrad Researcher"
     company: "Robotic Manipulation & Mobility Lab"
