@@ -1,14 +1,52 @@
 work:
   - role: "Mechanical Engineer"
-    company: "Acme Robotics"
-    dates: "2023 — Present"
-    location: "City, Country"
-    description: "Lead mechanical design, prototype development and validation for consumer robotics."
-  - role: "Design Intern"
-    company: "Motion Labs"
-    dates: "2022 — 2023"
-    location: "City, Country"
-    description: "Assisted with CAD, tolerance analysis, and test fixtures."
+    company: "Blue Origin"
+    location: "Seattle, WA"
+    dates: "September 2024 - Present"
+    image: "/assets/images/experience/blue-origin.webp"
+    description: |
+      - Created a unique geometry to carry an indirect load path >300 kips within stock size and tolerance constraints to house a spherical bearing and absorb the landing of the booster
+      - Designed and analyzed a welded steel assembly to attach to the LGS to integrate with the deploy test stand per GSE specifications
+      - Concepted and tested iterations of LGS bay seal in multiple test fixture levels of fidelity to mitigate aerothermal and pressure loads, including leak rate testing and pressure decay calculations
+      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand
+      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand
+  
+  - role: "New Graduate Rotational Program"
+    company: "Blue Origin"
+    location: "Seattle, WA"
+    dates: "September 2023 - September 2024"
+    image: "/assets/images/experience/blueorigin-be7.webp"
+    description: |
+      - New Glenn Payload Structures: designed, production released, and manufactured tow/lift points for NG's reusable fairing
+      - Lunar MK2 Flight Deck: prototyped jointed connections for the Rotational Hand Controller per NASA/ergonomics guidelines
+      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand
+
+  - role: "Propulsion Intern / Brooke Owens Fellow"
+    company: "Relativity Space"
+    location: "Long Beach, CA"
+    dates: "May 2022 - August 2022"
+    image: "/assets/images/experience/relativity-space.webp"
+    description: |
+      - Leveraged Powder Bed Fusion to design flexible, efficient engine components in NX and compare the analyses to commercial counterparts
+      - Designed, simulated structure and thermal loads, and led manufacture of PBF fuel feedline manifold for Aeon-R engine
+
+  - role: "Undergrad Researcher"
+    company: "Robotic Manipulation & Mobility Lab"
+    location: "New York, NY"
+    dates: "September 2021 - June 2022"
+    image: "/assets/images/experience/nasa-astrobee.webp"
+    description: |
+      - Rebuilt the robotic hands designed for NASA's Astrobee on a two-person team and implemented underactuated tendon-driven hand designs
+
+  - role: "Mechanical Engineering Intern / Zed Factor Fellow"
+    company: "Redwire Space"
+    location: "Jacksonville, FL"
+    dates: "May 2021 - August 2021"
+    image: "/assets/images/experience/redwire-space.webp"
+    description: |
+      - Modeled test fixtures and assembled large mock payloads for harnessing through Autodesk Inventor while using requirements, supplies, FDM/SLA printers, and past models to create solutions, working with ASME GD&T standards
+      - Arranged payload wiring diagram utilizing the cable and harnessing environment in Autodesk
+      - Designed and prototyped lightweight, carbon fiber version of payload for testing purposes
 
 education:
   - degree: "B.S. Mechanical Engineering"

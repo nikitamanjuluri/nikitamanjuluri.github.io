@@ -19,7 +19,7 @@ img{max-width:100%;height:auto}
 .tabs { display: flex; gap: 0.25rem; }
 .tab-controls { display: flex; gap: 0.5rem; border-bottom: none; margin-bottom: 0; }
 
-.layout-grid { width:100%; display: block; padding: 0 5%; margin: 2rem 0; }
+.layout-grid { width:100%; display: block; padding: 0 5%; margin: 2rem 0 0.5rem 0; }
 
 /* Right projects strip styles (kept for project-compact if used elsewhere) */
 .right-projects { display:flex; flex-direction:column; gap:0.6rem; }
@@ -29,6 +29,78 @@ img{max-width:100%;height:auto}
 .project-compact:hover { background:#fff; border-color:#e6e6e6; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
 .project-compact .pmeta strong { color:#111; display:block; margin-bottom:0.15rem; }
 .project-compact .ptags { font-size:0.85rem; color:#777 }
+
+/* Projects grid: 3 columns desktop, responsive */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-image {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-meta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-meta h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+  color: #111;
+}
+
+.project-meta p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive: 2 columns on tablet, 1 on mobile */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
 
 
 @media (max-width: 1100px) {
@@ -118,7 +190,7 @@ img{max-width:100%;height:auto}
   text-align: center;
   padding: 1.25rem 0 0.75rem 0;
   border-top: 1px solid #e6e6e6;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .home-contact p {
@@ -170,5 +242,125 @@ img{max-width:100%;height:auto}
   .intro-small,
   .desc-small {
     font-size: 0.9rem;
+  }
+}
+
+/* Experience page: two-column layout with image and text */
+.experience-item {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.experience-item.image-right {
+  grid-template-columns: 1fr 380px;
+}
+
+.experience-item.image-right .experience-image-wrapper {
+  order: 2;
+}
+
+.experience-item.image-right .experience-content {
+  order: 1;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.experience-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Custom aspect ratios for specific experience items */
+.experience-item[data-company="Blue Origin"]:nth-of-type(2) .experience-image {
+  aspect-ratio: 3/4; /* Vertical for BE-7 */
+}
+
+.experience-item[data-company="Blue Origin"]:nth-of-type(2) {
+  grid-template-columns: 280px 1fr; /* Slightly larger column for BE-7 */
+}
+
+.experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right {
+  grid-template-columns: 1fr 280px; /* Slightly larger for image-right variant */
+}
+
+.experience-item[data-company="Relativity Space"] .experience-image {
+  aspect-ratio: 16/9; /* More horizontal for Relativity Space */
+}.experience-content h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.3rem;
+  color: #111;
+}
+
+/* Experience page heading */
+.container > h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.experience-content .meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.experience-content .company {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.experience-content ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.experience-content li {
+  margin: 0.5rem 0;
+}
+
+/* Responsive: stack on narrow screens */
+@media (max-width: 900px) {
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .experience-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience-item {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  .experience-image {
+    width: 100%;
+  }
+  .experience-content h3 {
+    font-size: 1.1rem;
   }
 }

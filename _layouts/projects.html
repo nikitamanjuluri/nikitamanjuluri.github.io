@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <!-- unified topbar with nav tabs -->
+  <header class="topbar">
+    <nav class="topnav">
+      <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a>
+      <a href="{{ '/experience/' | relative_url }}" class="nav-link {% if page.url == '/experience/' %}active{% endif %}">Experience</a>
+      <a href="{{ '/education/' | relative_url }}" class="nav-link {% if page.url == '/education/' %}active{% endif %}">Education</a>
+      <a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url contains '/projects' %}active{% endif %}">Projects</a>
+      <a href="{{ '/resume/' | relative_url }}" class="nav-link {% if page.url == '/resume/' %}active{% endif %}">Resume</a>
+    </nav>
+  </header>
+
+  <main class="layout-grid">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer style="text-align:center;padding:0.5rem 0;color:#777">© {{ site.time | date: "%Y" }} {{ site.author.name }}</footer>
+</body>
+</html>
