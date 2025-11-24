@@ -51,7 +51,8 @@
         <div class="home-contact">
           <p>
             {% if site.email %}<a href="mailto:{{ site.email }}">{{ site.email }}</a>{% endif %}
-            {% if site.resume_link %}{% if site.email %} · {% endif %}<a href="{{ site.resume_link }}">Resume</a>{% endif %}
+            {% if site.author.linkedin %}{% if site.email %} · {% endif %}<a href="{{ site.author.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+            {% if site.resume_link %}{% if site.email or site.author.linkedin %} · {% endif %}<a href="{{ site.resume_link }}">Resume</a>{% endif %}
           </p>
         </div>
 

@@ -53,7 +53,21 @@ work:
       - Designed and prototyped lightweight, carbon fiber version of payload for testing purposes
 
 education:
-  - degree: "B.S. Mechanical Engineering • Minor Economics • GPA 3.85"
+  - degree: "B.S. Mechanical Engineering"
+    minor: "Minor in Economics"
+    gpa: "3.85"
     school: "Columbia University"
+    location: "New York, NY"
     dates: "September 2019 — May 2023"
-    details: "Thermodynamics • Fluids • Heat Transfer • Solid Mechanics • Intro to EE • Dynamics/Vibrations • Materials/Manufacturing • Control Systems • Aerospace Human Factors"
+    logo: "/assets/images/experience/Columbia_logo-200w.webp"
+    description: "Completed a rigorous mechanical engineering curriculum with a focus on thermal-fluid systems, structural mechanics, and aerospace applications. Complemented technical studies with an economics minor to develop a broader understanding of product development and business strategy."
+    coursework:
+      - "Thermodynamics"
+      - "Fluids"
+      - "Heat Transfer"
+      - "Solid Mechanics"
+      - "Intro to EE"
+      - "Dynamics/Vibrations"
+      - "Materials/Manufacturing"
+      - "Control Systems"
+      - "Aerospace Human Factors"
