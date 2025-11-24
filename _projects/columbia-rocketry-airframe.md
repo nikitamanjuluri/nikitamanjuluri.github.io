@@ -1,7 +1,7 @@
 ---
 title: "AIRFRAME – Columbia Rocketry"
 date: 2024-01-15
-image: /assets/images/projects/advanced-manufacturing.png
+image: /assets/images/projects/rocketry/rocketry-2-560w.webp
 excerpt: "Lead airframe design and composite manufacturing for competition launch vehicle"
 tags: [composites, manufacturing, structural design, integration]
 layout: project
@@ -15,7 +15,7 @@ My role combined design, simulation, hands-on fabrication, documentation, and co
 
 Our goal was to manufacture a high-strength, lightweight fin can using composite layups capable of withstanding aerodynamic and launch loads while minimizing mass and fabrication complexity.
 
-Key objectives included:
+**Key objectives included:**
 
 - Create structural fins using composite manufacturing techniques
 - Ensure adhesion and strength at fin-to-body interfaces
@@ -24,6 +24,10 @@ Key objectives included:
 - Complete within competition timeline and resource constraints
 
 ## Fin Layup Manufacturing
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/projects/rocketry/rocketry-1-560w.webp" srcset="/assets/images/projects/rocketry/rocketry-1-280w.webp 280w, /assets/images/projects/rocketry/rocketry-1-560w.webp 560w, /assets/images/projects/rocketry/rocketry-1-1120w.webp 1120w" alt="Rocketry Project - Fin Layup" style="max-width: 50%; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div>
 
 We produced the fins using vacuum-bagged carbon fiber over G10 fiberglass stock.
 
@@ -40,6 +44,10 @@ We produced the fins using vacuum-bagged carbon fiber over G10 fiberglass stock.
 5. Bevel the fin edges using a CNC mill and fixture setup
 
 This approach allowed us to mass-reduce the fins while achieving high structural stiffness and rigidity.
+
+<div style="text-align: center; margin: 2.5rem 0;">
+  <img src="/assets/images/projects/rocketry/rocketry-2-560w.webp" srcset="/assets/images/projects/rocketry/rocketry-2-280w.webp 280w, /assets/images/projects/rocketry/rocketry-2-560w.webp 560w, /assets/images/projects/rocketry/rocketry-2-1120w.webp 1120w" alt="Rocketry Project - Finished Fins" style="max-width: 70%; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div>
 
 ## Tip-to-Tip Layups
 

@@ -22,7 +22,6 @@
   <div style="max-width:1200px;margin:2rem auto;padding:0 5%;">
     <a href="{{ '/projects/' | relative_url }}" style="font-size:0.95rem;color:#669bbc;text-decoration:none;display:inline-block;margin-bottom:1rem;">← Back to Projects</a>
     <h1>{{ page.title }}</h1>
-    {% if page.image %}<img src="{{ page.image }}" alt="{{ page.title }}" style="width:100%;height:360px;object-fit:cover;border-radius:6px;">{% endif %}
     <p style="color:#666;margin-top:.5rem">{{ page.date | date: "%b %Y" }}</p>
     <div class="project-body" style="margin-top:1rem;">
       {{ content }}

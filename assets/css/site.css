@@ -68,6 +68,11 @@ img{max-width:100%;height:auto}
   object-position: center;
 }
 
+/* Shift nikitaprints thumbnail crop to the left */
+.project-card[data-project="nikita-s-prints-and-shop"] .project-image img {
+  object-position: left center;
+}
+
 .project-meta {
   flex: 1;
   display: flex;

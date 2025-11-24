@@ -8,7 +8,7 @@ permalink: /projects/
 
 <div class="projects-grid">
 {% for project in site.projects %}
-  <a href="{{ project.url }}" class="project-card">
+  <a href="{{ project.url }}" class="project-card" data-project="{{ project.title | slugify }}">
     <div class="project-image">
       <img src="{{ project.image | default: '/assets/images/projects/default.png' }}" alt="{{ project.title }}">
     </div>
