@@ -358,6 +358,22 @@ img{max-width:100%;height:auto}
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+  
+  /* Reset image-right to display normally on mobile */
+  .experience-item.image-right {
+    grid-template-columns: 1fr;
+  }
+  
+  .experience-item.image-right .experience-image-wrapper {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .experience-item.image-right .experience-content {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
   .experience-image {
     width: 80%;
     margin: 0 auto;
