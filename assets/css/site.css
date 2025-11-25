@@ -396,16 +396,39 @@ img{max-width:100%;height:auto}
     grid-template-columns: 1fr !important;
   }
   
-  .experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right .experience-image-wrapper {
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2) .experience-image-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
     order: 0;
     grid-column: 1;
     grid-row: 1;
   }
   
-  .experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right .experience-content {
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right .experience-image-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    order: 0;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2) .experience-content {
+    width: 100% !important;
     order: 0;
     grid-column: 1;
     grid-row: 2;
+  }
+  
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right .experience-content {
+    width: 100% !important;
+    order: 0;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2) .experience-image {
+    width: 100% !important;
+    margin: 0 !important;
   }
   
   .experience-image {
