@@ -8,7 +8,7 @@ work:
       - Created a novel geometry to carry >300,000 lbs of indirect load paths within stock size and tolerance constraints to optimize lead times on materials. Through iterative design and Ansys analysis, reduced mass by 45% to a design able to withstand 500°F, decreasing cost of materials and labor by considering machining constraints. I incorporated multiple rounds of inputs from structures and thermal protection systems teams
       - Transformed design to Powder Bed Fusion (PBF) printed variation to overcome stock size constraints
       - Designed & analyzed welded steel assemblies for landing gear test stand integration per GSE safety factors
-      - Developed and tested multiple landing-gear bay seal concepts to mitigate aerothermal & pressure loads, performing leak-rate testing and pressure-decay calculations to conform to Equivalent Sharp Edge Orifice Diameter (ESEOD) standards
+      - Developed and tested 8 landing-gear bay seal concepts to mitigate aerothermal & pressure loads, performing leak-rate testing and pressure-decay calculations to conform to Equivalent Sharp Edge Orifice Diameter (ESEOD) standards
     skills: "Creo, Ansys, GD&T, Windchill, DFAM, Structural Test, P&ID"
 
   - role: "New Graduate Rotational Program"
@@ -19,7 +19,7 @@ work:
     description: |
       - New Glenn Payload Structures: Designed and released lift/tow points for reusable fairing hardware to help with recovery and refurb of the New Glenn fairing. Worked with refurb team in Florida, focusing on customer needs, and visited Cape Canaveral facility to understand manufacturing constraints. 
       - Lunar MK2 Flight Deck: Prototyped jointed connections for the Rotational Hand Controller, working with NASA team and Blue’s flight controllers to create Human in the Loop (HITL) tests to analyze ease of use for hardware.  
-      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances at the Air Force Research Lab test stand.
+      - BE-7 Thrust Chamber Assembly: led manufacturing efforts for BE-7 igniter and exciter while assessing work orders and addressing nonconformances for the igniter and injector assembly at the Air Force Research Lab test stand.
     skills: "Works Order System, Nonconformance, Ergonomics"
 
   - role: "Propulsion Intern / Brooke Owens Fellow"
@@ -29,7 +29,7 @@ work:
     image: "/assets/images/experience/relativity-space.webp"
     description: |
       - Leveraged Powder Bed Fusion to design flexible, efficient engine components in NX and compare the analyses to commercial counterparts
-      - Designed and thermally/structurally simulated a PBF fuel feedline manifold for the Aeon-R engine, allowing for organic channels that reduced weight and lead times
+      - Designed and thermally/structurally simulated engine chill-in conditions for a PBF fuel feedline manifold for the Aeon-R engine, allowing for organic channels that reduced mass by 60% and lead times
       - Gathered subcomponents (fittings, sensors, valves, orifices, and filters) and requirements from stakeholders
       - Considered PBF manufacturing and machining while balancing print time, mass, temperature distributions, and stress concentrations.
     skills: "NX, Ansys structural/thermal, DFAM"
@@ -41,6 +41,7 @@ work:
     image: "/assets/images/experience/nasa-astrobee.webp"
     description: |
       - Rebuilt the robotic hands designed for NASA's Astrobee on a two-person team and implemented underactuated tendon-driven hand designs
+    skills: "Robotics, basic mechanism and assembly"
 
   - role: "Mechanical Engineering Intern / Zed Factor Fellow"
     company: "Redwire Space"
@@ -51,6 +52,7 @@ work:
       - Modeled test fixtures and assembled large mock payloads for harnessing through Autodesk Inventor while using requirements, supplies, FDM/SLA printers, and past models to create solutions, working with ASME GD&T standards
       - Arranged payload wiring diagram utilizing the cable and harnessing environment in Autodesk
       - Designed and prototyped lightweight, carbon fiber version of payload for testing purposes
+    skills: "FDM and SLA printing, Autodesk Inventor"
 
 education:
   - degree: "B.S. Mechanical Engineering"
