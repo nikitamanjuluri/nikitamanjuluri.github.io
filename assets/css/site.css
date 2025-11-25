@@ -386,6 +386,16 @@ img{max-width:100%;height:auto}
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
   }
+  
+  /* Override specific column widths on mobile */
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2) {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right {
+    grid-template-columns: 1fr !important;
+  }
+  
   .experience-image {
     width: 100%;
   }

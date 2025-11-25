@@ -5,7 +5,7 @@ work:
     dates: "September 2023 - September 2024"
     image: "/assets/images/experience/blue-origin.webp"
     description: |
-      - Created a novel geometry to carry >300 kip indirect load paths within stock/tolerance constraints. Through iterative design and Ansys analysis, reduced mass to 60 lbs of titanium to withstand 500°F aerothermal constraints, incorporating inputs from structures and thermal protection systems teams
+      - Created a novel geometry to carry >300,000 lbs of indirect load paths within stock size and tolerance constraints to optimize lead times on materials. Through iterative design and Ansys analysis, reduced mass by 45% to a design able to withstand 500°F, decreasing cost of materials and labor by considering machining constraints. I incorporated multiple rounds of inputs from structures and thermal protection systems teams
       - Transformed design to Powder Bed Fusion (PBF) printed variation to overcome stock size constraints
       - Designed & analyzed welded steel assemblies for landing gear test stand integration per GSE safety factors
       - Developed and tested multiple landing-gear bay seal concepts to mitigate aerothermal & pressure loads, performing leak-rate testing and pressure-decay calculations to conform to Equivalent Sharp Edge Orifice Diameter (ESEOD) standards
