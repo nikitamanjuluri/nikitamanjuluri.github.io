@@ -396,6 +396,18 @@ img{max-width:100%;height:auto}
     grid-template-columns: 1fr !important;
   }
   
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right .experience-image-wrapper {
+    order: 0;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .experience-item[data-company="Blue Origin"]:nth-of-type(2).image-right .experience-content {
+    order: 0;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
   .experience-image {
     width: 100%;
   }
