@@ -1,7 +1,7 @@
 ---
 title: "Nikita's Prints and Shop"
 date: 2024-03-10
-image: /assets/images/projects/nikitaprints/car-560w.webp
+image: /assets/images/projects/nikitaprints/nikita_logo-560w.webp
 tags: [3D printing, entrepreneurship, design]
 layout: project
 ---
@@ -42,5 +42,23 @@ Designed and printed a variety of functional prints for myself, including plante
   <div>
     <img src="/assets/images/projects/nikitaprints/vase-printed-560w.webp" srcset="/assets/images/projects/nikitaprints/vase-printed-280w.webp 280w, /assets/images/projects/nikitaprints/vase-printed-560w.webp 560w, /assets/images/projects/nikitaprints/vase-printed-1120w.webp 1120w" alt="Vase - 3D Printed" style="width: 75%; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 0 auto; display: block;">
     <p style="text-align: center; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Vase - 3D Printed</p>
+  </div>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+  <div>
+    <img src="/assets/images/projects/nikitaprints/Alia-560w.webp" srcset="/assets/images/projects/nikitaprints/Alia-280w.webp 280w, /assets/images/projects/nikitaprints/Alia-560w.webp 560w, /assets/images/projects/nikitaprints/Alia-1120w.webp 1120w" alt="Alia" style="width: 75%; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 0 auto; display: block;">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Image of my dog Alia - SLA 3D Printed</p>
+  </div>
+  <div>
+    <img src="/assets/images/projects/nikitaprints/elephant-560w.webp" srcset="/assets/images/projects/nikitaprints/elephant-280w.webp 280w, /assets/images/projects/nikitaprints/elephant-560w.webp 560w, /assets/images/projects/nikitaprints/elephant-1120w.webp 1120w" alt="Elephant" style="width: 75%; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 0 auto; display: block;">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Elephant phone holder - 3D Printed</p>
+  </div>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+  <div>
+    <img src="/assets/images/projects/nikitaprints/elephant_with_plants-560w.webp" srcset="/assets/images/projects/nikitaprints/elephant_with_plants-280w.webp 280w, /assets/images/projects/nikitaprints/elephant_with_plants-560w.webp 560w, /assets/images/projects/nikitaprints/elephant_with_plants-1120w.webp 1120w" alt="Elephant with Plants" style="width: 75%; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 0 auto; display: block;">
+    <p style="text-align: center; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Elephant planter - 3D Printed</p>
   </div>
 </div>
