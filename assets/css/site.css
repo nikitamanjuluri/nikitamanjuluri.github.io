@@ -30,10 +30,10 @@ img{max-width:100%;height:auto}
 .project-compact .pmeta strong { color:#111; display:block; margin-bottom:0.15rem; }
 .project-compact .ptags { font-size:0.85rem; color:#777 }
 
-/* Projects grid: 3 columns desktop, responsive */
+/* Projects grid: 4 columns desktop, responsive */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   margin-top: 2rem;
 }

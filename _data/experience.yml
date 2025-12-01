@@ -54,6 +54,21 @@ work:
       - Designed and prototyped lightweight, carbon fiber version of payload for testing purposes
     skills: "FDM and SLA printing, Autodesk Inventor"
 
+  - role: "Program Manager, Community Development Lead, & Tapstands Lead"
+    company: "Engineers Without Borders - USA (EWB-USA)"
+    location: "New York, NY"
+    dates: "September 2019 - May 2023"
+    image: "/assets/images/experience/ewb-usa.webp"
+    description: |
+      Provided Moroccan villages, Izguaren and Ilguiloada, sustainable access to clean water throughout 3 different roles on the team.
+      
+      As Program Manager, I steered the club's direction, made the final decisions about technical goals, and coordinated with the university, the community, and EWB-USA.
+      
+      As Community Development Lead, I gathered data, reviewed case studies, and created a management plan for the water distribution.
+      
+      Initially, as Tapstands Lead, I designed the taps that the community would interact with through SolidWorks, keeping ergonomics and ease of manufacturing on-site in mind.
+    skills: "SolidWorks, project management, community engagement, data analysis"
+
 education:
   - degree: "B.S. Mechanical Engineering"
     minor: "Minor in Economics"

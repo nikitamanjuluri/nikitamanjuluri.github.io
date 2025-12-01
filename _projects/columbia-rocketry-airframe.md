@@ -1,5 +1,5 @@
 ---
-title: "AIRFRAME – Columbia Rocketry"
+title: "Airframe – Columbia Rocketry"
 date: 2024-01-15
 image: /assets/images/projects/rocketry/rocketry-2-560w.webp
 excerpt: "Lead airframe design and composite manufacturing for competition launch vehicle"

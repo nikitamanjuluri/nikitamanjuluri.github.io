@@ -2,13 +2,27 @@
 title: "Nikita's Prints and Shop"
 date: 2024-03-10
 image: /assets/images/projects/nikitaprints/nikita_logo-560w.webp
+excerpt: "Created an Etsy shop with 50+ sales, designing functional 3D prints including customizable camera covers, bookmarks, and planters"
 tags: [3D printing, entrepreneurship, design]
 layout: project
 ---
 
-Leveraged my Ender 3 Pro to create an Etsy shop, NikitaPrints, for functional 3D prints. Managed the shop and distributed the sold items country-wide, resulting in 50+ sales. 
+Leveraged my Ender 3 Pro to create an Etsy shop, NikitaPrints, for functional 3D prints. Managed the shop and distributed the sold items country-wide, resulting in 50+ sales.
 
-Designed and printed a variety of functional prints for myself, including planters, motorcycle parts, and storage equipment, learning smaller scale design for additive manufacturing and design optimization while exploring the nooks and crannies of SolidWorks.
+## Challenge
+
+I challenged myself to see how profitable I could make my prints and was aiming to increase value of my creations by encouraging customizability—adding initials, symbols, or emojis to my products. Since this shop was started during the COVID pandemic, my most popular product that filled the market gap at the time was simply laptop camera covers, since virtual calls were prevalent and privacy was an increased concern.
+
+## Solution
+
+I noticed products that were generally doing well in the market during the pandemic and businesses that were booming and designed around those signals. People tended towards Zoom calls, so I made camera covers. Reading was a popular individual hobby, so I made custom bookmarks. I was also limited by the size of my Ender 3 Pro printbed and wanted to minimize shipping costs, so I ideated within the size constraints of a large mailing envelope.
+
+## Key Learnings
+
+- Design for Manufacturing (DFM)
+- Customer insights and market validation
+- Marketing and consumer product design
+- Balancing profitability with production constraints
 
 ## Gallery
 
